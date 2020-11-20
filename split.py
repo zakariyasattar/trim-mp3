@@ -16,5 +16,13 @@ song_data = [
 ]
 
 for data in song_data:
-    previous_end_time = 
-    ffmpeg_extract_subclip("cybercity.mp3", convertToMilli(data[0]), 60, targetname = data[2] + ".mp3")
+    previous_end_time =
+    ffmpeg_extract_subclip("cybercity.mp3", convertToMilli(data[0]), 60, targetname = "results/" + data[2] + ".mp3")
+
+
+# TODO:
+# format all song_data data
+# write convertToMilli function
+# add function to edit metadata of mp3 to add artist (data[1])
+
+# DONE:
