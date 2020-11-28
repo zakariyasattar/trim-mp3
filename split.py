@@ -5,18 +5,20 @@ import os
 path_to_mp3 = "cybercity.mp3"
 
 song_data = [
-    ["00:00", "Mike Noise", "Low Earth Orbit"],
-    ["03:26", "SHAP3S", "Swell"],
-    ["06:17", "Shortwire", "Reconfig"],
-    ["09:59", "DOOMROAR", "Sagittarius"],
-    ["13:37", "Com Truise", "Hyperlips"],
-    ["18:18", "Emil Rottmayer", "Descend"],
-    ["22:26", "DOOMROAR", "The Discovery"],
-    ["26:20", "HOME", "I See You"],
-    ["29:02", "Unnamed", "Sundown"],
-    ["30:59", "Emil Rottmayer", "K.E.Y.S"],
-    ["35:00", "HOME", "Billiards"],
-    ["37:56", "Mitch Murder", "Mirage"]
+    ["0:00", "Fantom '87", "Pay Phone"]
+    ["5:50", "Chris Keya", "Hotlines"]
+    ["9:00", "Ferus Melek", "Octoparis"]
+    ["12:26", "H A G H O R R O R", "Machine Talk"]
+    ["18:45", "Jeremiah Kane", "Capri Rage"]
+    ["23:22", "Straplocked", "Fast Drop"]
+    ["27:02", "SIDE SCROLLER", "VGA Nights"]
+    ["32:35", "Alex Vith", "Technical Liturgy"]
+    ["39:06", "Zane Alexander", "V o i d"]
+    ["43:00", "Retouch", "Alighting"]
+    ["45:10", "ZAYAZ", "Elegia"]
+    ["48:25", "LɅNights", "Outlands"]
+    ["51:00", "CJ Burnett", "West Side Drive"]
+    ["54:16", "SCAR", "Resistance"]
 ]
 
 def convertToSecs(time):
